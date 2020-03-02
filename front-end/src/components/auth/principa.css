@@ -1,0 +1,122 @@
+
+body{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    width: auto;
+    height: auto;
+   
+  }
+  
+  /*BOTONES*/
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2rem;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 50px 65px;
+      margin-top: 10px;
+    }
+    
+    .button1 {
+      background-color:#ca7f0e; 
+      color: black; 
+      border: 2px solid #ca7f0e;
+    }
+  
+    .button1:hover {
+      background-color: rgb(29, 48, 156);
+      color: white;
+      border: 2px solid rgb(49, 76, 228);
+      font-size: 3rem;
+    }
+  /*DIVISIONES */
+  .centrado{
+      text-align: center;
+      margin-top: 80px;
+    
+  }
+  .contenido {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  /*TITULOS */
+  .word { 
+    background-color: rgb(129, 13, 212);
+    font-family: Arial;
+    font-size: 48px;
+    color: black;
+    line-height: 1.4em;
+    height: 1.4em;
+    padding: 0 14px 0 7px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .titulo { 
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 7vw;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    line-height: 1.4em;
+    height: 1.4em;
+    padding: 0 14px 0 7px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .word:before {
+    content: '';
+    background-color: black;
+    width: 1px;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 7px;
+  }
+  
+  /*FONDO */
+  body,html{
+    height: 100%;
+    margin: 0;
+    background-image: url("./img/fondo.jpg");
+  }
+  .bg-image {
+    filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text {
+
+ 
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+ 
