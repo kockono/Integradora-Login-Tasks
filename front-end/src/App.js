@@ -4,7 +4,7 @@ import Login from './components/auth/Login';
 import Principal from './components/auth/Principal';
 import NuevaCuenta from './components/auth/NuevaCuenta';
 import Proyectos from './components/proyectos/Proyectos';
-
+import esp32 from './esp32/esp32'
 import ProyectoState from './context/proyectos/proyectoState';
 import TareaState from './context/tareas/tareaState';
 import AlertaState from './context/alertas/alertaState';
@@ -32,6 +32,7 @@ function App() {
                     <Route exact path="/nueva-cuenta" component={NuevaCuenta} />
                     <Route exact path="/about" component={About} />
                     <RutaPrivada exact path="/proyectos" component={Proyectos} />
+                    <RutaPrivada exact path="/gas" component={esp32}/>
                 </Switch>
             </Router>
           </AuthState>
